@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary-color */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* neutral-color */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    /* font-size */
+    --Font-size: 18px;
+
+    /* font-family */
+    --font-family: 'Bai Jamjuree', sans-serif;
+}
+body {
+  font-size: var(--Font-size);
+  font-family: var(--font-family);
+  text-align: center;
+
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+    
+.header {
+    text-align: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+}
+
+.header-logo {
+    width: 30px;
+    margin-top: 30px;
+}
+
+.header p {
+    width: 228px;
+    padding: 0 30px 0 30px;
+    font-size: 4px;
+    margin-top: 5px;    
+}
+
+p {
+    width: 300px;
+    margin: 12px auto;
+    font-size: 8px;
+    color: var(--Grayish-Blue);
+}
+
+h3 {
+    font-size: 8px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    padding:  4px 5px;
+    font-size: 5px;
+    color: #fff;
+}
+
+.btn-1 {
+    background-color: var(--Strong-Cyan);
+}
+
+.btn-2 {
+    background-color: var(--Light-Blue);
+}
+
+.track {
+    margin: 20px auto;
+}
+.track p {
+    width: 150px;
+    margin-top: 5px;
+    font-size: 4px;
+   
+}
+
+.track-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.track-image {
+    width: 200px;
+}
+
+.track-details {
+    font-size: 5px;
+    text-align: justify;
+    margin: 10px 60px 0 0;
+    width: 100px;
+    padding: 10px;    
+}
+
+.track-details p {
+    line-height: 5px;
+    margin-top: 5px;
+    font-size: 4px;
+    
+}
+
+.access p{
+    width: 228px;
+    padding: 0 30px 0 30px;
+    font-size: 4px;
+}
+    
+
+.access-image {
+    width: 150px;
+}
+
+.workflow p{
+    margin-top: 5px;
+    font-size: 4px;
+}
+
+.workflow-tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+}
+
+.workflow-tools p {
+    width: 95px;
+    font-size: 4px;
+    margin: 8px 0 10px;
+}
+
+.workflow-tools h5 {
+    font-size: 5px;
+}
+
+.workflow-icon {
+    width: 10px;
+}
+
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0 30px 0;
+}
+
+.downloads {
+    margin: 20px 0 20px 0;
+}
+
+.downloads p {
+    margin-top: 4px;
+    width: 228px;
+    padding: 0 30px 0 30px;
+    font-size: 4px;
+}
+
+.btn-3 {
+    background-color: var(--Strong-Cyan);
+}
+
+.btn-4 {
+    background-color: var(--Light-Blue);
+}
+
+.footer {
+    display: flex;
+    align-content: center;
+    gap: 40px;
+    width: 320px;
+    background-color: var(--Grayish-Blue);
+    opacity: 20%;
+}
+
+.footer-img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px;
+    font-size: 8px;
+    margin-top: 8px;
+}
+
+.footer-list-2 {
+    line-height: 10px;
+}
+
+.footer-icons {
+    margin-left: 20px;
+}
+
+.social {
+    width: 10px;
+}
+
+@media all and (max-width: 300px){
+    .container {
+        flex-wrap: wrap;
+    }
+}
